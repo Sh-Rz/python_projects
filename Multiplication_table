@@ -1,0 +1,7 @@
+timestable= int(input('Hello what times table do you want?'))
+number = int(input('Till where?...'))
+count=1
+numbers = number+1
+for i in range(count,numbers):
+  print(i, '*' , timestable, '=', timestable*i)
+print("And Now you know the times table of", timestable, 'Congratulations🎉🎉')
